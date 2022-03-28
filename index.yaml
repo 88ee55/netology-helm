@@ -14,6 +14,16 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-03-28T11:49:30.328677456Z"
+    description: A Helm chart for Kubernetes
+    digest: 18ffecbb9ee7f09be2bbe0564049e63e32798415325a88f5d5984153efe28377
+    name: myapp
+    type: application
+    urls:
+    - https://github.com/88ee55/netology-helm/releases/download/myapp-0.1.1/myapp-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-03-28T10:26:00.283201902Z"
     description: A Helm chart for Kubernetes
     digest: 55de8b12512b061434bbe76367586784a1bb4f4f991352554daf3e166a9ba883
