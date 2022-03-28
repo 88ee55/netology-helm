@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/88ee55/netology-helm/releases/download/gabschart-20.0.0/gabschart-20.0.0.tgz
     version: 20.0.0
+  myapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-28T10:26:00.283201902Z"
+    description: A Helm chart for Kubernetes
+    digest: 55de8b12512b061434bbe76367586784a1bb4f4f991352554daf3e166a9ba883
+    name: myapp
+    type: application
+    urls:
+    - https://github.com/88ee55/netology-helm/releases/download/myapp-0.1.0/myapp-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-03-25T15:03:06.500538821Z"
