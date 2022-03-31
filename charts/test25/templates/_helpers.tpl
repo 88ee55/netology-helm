@@ -64,7 +64,3 @@ Create the name of the service account to use
 {{- define "test25.hostname" -}}
 {{- regexFind "task-[0-9]+" .Release.Name | default "default" | printf "%s." }}
 {{- end }}
-
-{{- define "test25.imagetag" -}}
-{{- .Release.Name }}
-{{- end }}
