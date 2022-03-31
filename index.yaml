@@ -45,6 +45,16 @@ entries:
   test25:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-03-31T07:28:40.205012333Z"
+    description: A Helm chart for Kubernetes
+    digest: e340ae3299ec9128a2d59e97f988bf96f73664edf58b3204d0dde4574267108f
+    name: test25
+    type: application
+    urls:
+    - https://github.com/88ee55/netology-helm/releases/download/test25-0.1.4/test25-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-03-30T18:24:40.164274861Z"
     description: A Helm chart for Kubernetes
     digest: 8126fbfc8a2ae000b2f069d3f6f56a5cd89a846ee8c0e1ef318e219824ab50a5
